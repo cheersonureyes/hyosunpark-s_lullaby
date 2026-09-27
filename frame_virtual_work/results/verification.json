@@ -1,0 +1,39 @@
+{
+  "parameters": {
+    "span": 6.0,
+    "height": 3.0,
+    "E": 200000000000.0,
+    "nu": 0.3,
+    "column_shear_factor": 0.8333333333333334,
+    "beam_shear_factor": 0.8333333333333334,
+    "column_A": 0.02,
+    "column_I": 8e-05,
+    "beam_A": 0.02,
+    "beam_I": 8e-05,
+    "delta": 0.01,
+    "left_I_factor": 1.0,
+    "right_I_factor": 1.0
+  },
+  "total_horizontal_reaction_N": 80363.98930183612,
+  "lateral_stiffness_N_per_m": 8036398.930183612,
+  "total_energy_J": 401.81994650917966,
+  "verification": {
+    "status": "PASS",
+    "virtual_work_error_m": -1.0928757898653885e-16,
+    "energy_error_J": -9.663381206337363e-13,
+    "beam_I_sensitivity_finite_difference_m": -0.003169746364195189,
+    "beam_I_sensitivity_adjoint_m": -0.0031697463463404496,
+    "checks": [
+      "Timoshenko cantilever exact solution",
+      "Euler-Bernoulli limit",
+      "virtual work",
+      "energy",
+      "energy integral vs matrix",
+      "deformed endpoints",
+      "symmetry",
+      "displacement scaling",
+      "asymmetry",
+      "stiffness sensitivity"
+    ]
+  }
+}
