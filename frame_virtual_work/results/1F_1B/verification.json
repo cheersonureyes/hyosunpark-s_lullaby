@@ -1,0 +1,33 @@
+{
+  "parameters": {
+    "span": 6.0,
+    "height": 3.0,
+    "E": 200000000000.0,
+    "nu": 0.3,
+    "column_shear_factor": 0.8333333333333334,
+    "beam_shear_factor": 0.8333333333333334,
+    "column_A": 0.02,
+    "column_I": 8e-05,
+    "beam_A": 0.02,
+    "beam_I": 8e-05,
+    "delta": 0.01,
+    "left_I_factor": 1.0,
+    "right_I_factor": 1.0,
+    "stories": 1,
+    "bays": 1,
+    "bay_widths": [],
+    "story_heights": []
+  },
+  "node_count": 4,
+  "member_count": 3,
+  "dof_count": 12,
+  "horizontal_reaction_N": 80363.98930183612,
+  "lateral_stiffness_N_m": 8036398.930183612,
+  "verification": {
+    "status": "PASS",
+    "virtual_work_error_m": -1.0928757898653885e-16,
+    "energy_error_J": -9.663381206337363e-13,
+    "free_dof_residual_max": 9.094947017729282e-12,
+    "moment_equilibrium_error_Nm": -5.966285243630409e-10
+  }
+}
